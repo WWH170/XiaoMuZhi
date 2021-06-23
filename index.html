@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./static/libs/scrollReveal/scrollreveal.min.js"></script>
+  <!-- 引入font-awesome依赖 -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/libs/glide/glide.core.min.css" />
+  <link rel="stylesheet" href="./static/libs/glide/glide.theme.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title></title>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <header>
+    <div class="logo">小拇指爱心</div>
+    <nav>
+      <a href="#home">首页</a>
+      <a href="#about-us">关于我们</a>
+      <a href="#showcases">拇指作品</a>
+      <a href="#team-intro">团队介绍</a>
+      <a href="#company-activities">公司动态</a>
+      <a href="#thanks">特别感谢</a>
+      <a href="#"><i class="fas fa-search"></i></a>
+    </nav>
+    <div class="burger">
+      <div class="burger-line1"></div>
+      <div class="burger-line2"></div>
+      <div class="burger-line3"></div>
+    </div>
+  </header>
+  <div id="home" class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <div class="glide__slides">
+        <!-- 轮播图一 -->
+        <div class="glide__slide">
+          <div class="slide-caption left">
+            <h1>小拇指爱心 </h1>
+            <h3>“小拇指”爱心，以“拇指”之手改变生活，用网络连接“拇指”世界。</h3>
+            <button class="explore-btn">了解更多</button>
+          </div>
+          <div class="backdrop"></div>
+          <img src="./static/images/1.jpg" />
+        </div>
+        <div class="glide__slide">
+          <div class="slide-caption left">
+            <h1>小拇指爱心</h1>
+            <h3>爱在指尖</h3>
+            <button class="explore-btn">了解更多</button>
+          </div>
+          <div class="backdrop"></div>
+          <video src="./static/videos/introduction2.mp4" muted autoplay loop></video>
+        </div>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          <i class="fa fa-angle-left"></i>
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          <i class="fa fa-angle-right"></i>
+        </button>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <section id="about-us" class="about-us">
+      <h2 class="title1">关于我们</h2>
+      <div class="intro">
+        <p>
+          我们秉承着“广泛参与、造血式公益和能力塑造”的理念，致力于为“小拇指”们获取更多的经济利益和精神慰藉。以公益的角度出发，将一贯的公益心不断发扬光大，并与所有的公益慈善组织一起努力，提高社会大众的公益意识。
+        </p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-lightbulb"></i>
+          <h4 class="feature-title">“小拇指们”</h4>
+          <p class="feature-content">
+            “小拇指们”是我们的爱心帮扶对象。他们也许是因先天或后天因素而陷入困境，他们的家庭因缺乏必要的支持和帮助逐渐陷入贫困和危机，但却对生活充满希望。
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h4 class="feature-title">产品来源</h4>
+          <p class="feature-content">
+            我们平台的产品主要来自于社会上有才艺的“小拇指们”，无论是儿童、老人、残疾人；无论是身体上或是心理上的因素而导致的贫困；不管才艺形式，无论才艺大小，都可以给我们的“云平台”提供作品。
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-shopping-cart"></i>
+          <h4 class="feature-title">“造血式”项目</h4>
+          <p class="feature-content">
+            我们平台不仅帮助有能力的“小拇指”们获得经济来源，而且对于尚且没有特长的人群进行“再培训”能力建设，帮助他们争取早日通过自己的双手实现人生价值。
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <section id="showcases" class="showcases section-bg">
+      <h2 class="title1">拇指作品</h2>
+      <div class="filter-btns">
+        <button class="filter-btn active" data-filter="*">全部</button>
+        <button class="filter-btn" data-filter=".painting">画作</button>
+        <button class="filter-btn" data-filter=".activatedCarbon">手工艺品</button>
+        <button class="filter-btn" data-filter=".calligraphy">书法</button>
+      </div>
+      <div class="cases">
+        <div class="case-item web painting">
+          <img src="./static/images/5.jpg" alt="">
+        </div>
+        <div class="case-item web painting">
+          <img src="./static/images/6.jpg" alt="">
+        </div>
+        <div class="case-item painting">
+          <img src="./static/images/7.jpg" alt="">
+        </div>
+        <div class="case-item web activatedCarbon">
+          <img src="./static/images/1.jpg" alt="">
+        </div>
+        <div class="case-item mobile activatedCarbon">
+          <img src="./static/images/2.jpg" alt="">
+        </div>
+        <div class="case-item science activatedCarbon">
+          <img src="./static/images/3.jpg" alt="">
+        </div>
+        <div class="case-item mobile web science activatedCarbon">
+          <img src="./static/images/4.jpg" alt="">
+        </div>
+        <div class="case-item mobile calligraphy">
+          <img src="./static/images/10.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="team-intro" class="team-intro section-bg">
+      <h2 class="title1">团队组成</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/头像1.jpg" alt="">
+          </div>
+          <h4 class="name">网络技术部</h4>
+          <p class="position">“负责微信公众号以及网页的日常维护，掌握产品新动态并及时上传；及时收取爱心人士的反馈，接听热线等。”</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/头像2.jpg" alt="">
+          </div>
+          <h4 class="name">信息部</h4>
+          <p class="position">“收集小拇指信息，并进行筛选，把有价值的信息交与产品部，一边及时收取小拇指作品等。”</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/头像3.jpg" alt="">
+          </div>
+          <h4 class="name">产品部</h4>
+          <p class="position">“负责了解小拇指作品的类别及市场需求、小拇指们的再培训活动；定期组织捐赠，展览等其他相关活动。”</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/头像4.jpg" alt="">
+          </div>
+          <h4 class="name">财务部</h4>
+          <p class="position">“负责定期盘点线上交易所得，并把小拇指应得的部分及时送达他们手中。财务透明，让大家的爱落到实处。”</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="data-section">
+      <div class="data-piece">
+        <i class="fas fa-book-open"></i>
+        <div class="num">100+</div>
+        <div class="data-desc">份作品</div>
+      </div>
+      <div class="data-piece">
+        <i class="fas fa-house-user"></i>
+        <div class="num">10+</div>
+        <div class="data-desc">个合作单位</div>
+      </div>
+      <div class="data-piece">
+        <i class="fas fa-people-arrows"></i>
+        <div class="num">150</div>
+        <div class="data-desc">位“小拇指”</div>
+      </div>
+
+    </section>
+    <section id="company-activities" class="company-activities">
+      <h2 class="title1">优秀作品</h2>
+      <p class="intro">我们将定期更新小拇指们的优秀产品，敬请期待哦</p>
+      <div class="activities">
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/绽放.png" alt="">
+          </div>
+          <h2 class="act-title">自闭症儿童画作《绽放》</h2>
+          <article>
+            这幅油画作品是郑州市儿童福利院的绘画作品《绽放》。大大的花瓶里装满了盛放的花朵，朵朵向阳，肆意盛放，就像小作者一样努力向上，找寻着生命中的灿烂阳光。油画的作者是一名自闭症儿童，由于与生俱来的生理缺陷，使得自闭症儿童相对弱小又带有边缘化的特征。然而，这些星星的孩子作为一类独特的社会弱势群体，也同样具有其融入社会、享受生活的权利。在福利院开设的美术课堂上，小飞都表现出不同于以往的专注和乖巧，认真领会老师的指导，福利院的老师们逐渐发现他对于绘画的热爱和天赋，慢慢培养小飞用手中的画笔表达内心的足迹。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/12.jpg" alt="">
+          </div>
+          <h2 class="act-title">脸谱掐丝活性炭盘净化空气</h2>
+          <article>
+            景泰蓝活性掐丝碳盘是“景泰蓝镶嵌工艺+活性炭炭盘”二者组合的产物，一种是净化空气用的活性炭炭盘，一种是中国传统的景泰蓝镶嵌工艺的现代延伸，传统文化与现代环保产品的有机组合成一种既有美化环境又有净化室内空气的双重功效的新品！景泰蓝活性炭盘，在活性炭炭盘上进行艺术加工，结合其它材质制作出各种装饰性的活性炭装饰画，借鉴了传统的景泰蓝工艺，独创出以活性炭盘为基材，在活性炭炭板上掐丝、点蓝，以黄灿灿的金属丝来表现各种图案轮廓，以名贵的釉料、玉石、宝石等作为画面的色彩，再辅以各种手法而纯手工制作成各种装饰炭画。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/10.jpg" alt=""> </div>
+          <h2 class="act-title">宁陵县孔集乡书画老人六米书法作品</h2>
+          <article>
+            书法是中国及深受中国文化影响过的周边国家和地区特有的一种文字美的艺术表现形式。“中国书法”，是中国汉字特有的一种传统艺术。
+            此书法作品全长5.5米，写的是王羲之的《兰亭序》，已经精心装裱。这幅作品出自一位贫困老人之手。这幅字是老人最得意的作品之一，全长有五六米，一点一滴写满了老人的不易。这幅字可以说非常出彩，老人说他写这幅字用了一个月的时间，因为这卷纸的价钱，对于老人来说不是那么容易支付的，所以他生怕浪费了这卷纸。一个只上过三年学的七旬老人，一笔一划的写出了王羲之的《兰亭序》。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="thanks" class="thanks">
+      <h2 class="title1">特别感谢</h2>
+      <p class="intro">
+        “小拇指爱心项目”在走访调研中，受到了多方的大力支持和指导，在此特别鸣谢。
+      </p>
+      <div class="thankss">
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">郑州市社会福利院</h6>
+
+        </div>
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">郑州市儿童福利院</h6>
+
+        </div>
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">馨嘉苑社工</h6>
+
+        </div>
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">比邻社工</h6>
+
+        </div>
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">慈善总会</h6>
+
+        </div>
+        <div class="thanks-item">
+          <i class="fas fa-heart"></i>
+          <h6 class="thanks-title">德艺慈善</h6>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p class="icp-info">豫ICP备19011024号</p>
+    <p class="rights">&copy; 小拇指爱心</p>
+    <div class="scroll-to-top">
+      <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    </div>
+  </footer>
+  <!-- 引入JS文件 -->
+  <script src="./static/libs/anime/anime.min.js"></script>
+  <script src="./static/libs/glide/glide.min.js"></script>
+  <script src="./static/libs/isotope/isotope.pkgd.min.js"></script>
+  <script src="./static/libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
